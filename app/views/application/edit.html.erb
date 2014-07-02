@@ -1,0 +1,8 @@
+<h2>Edit Assessment</h2>
+
+
+<form action="/update_assessment/<%= @assessment.id %>">
+  <input type="text" name="name" placeholder="name" value="<%= @assessment.name %>">
+  <input type="text" name="idea" placeholder="idea" value="<%= @assessment.idea %>">
+  <input type="submit">
+</form>
